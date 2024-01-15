@@ -1,0 +1,70 @@
+/* import google font */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Mulish:wght@400;600;700;800&display=swap');
+
+  /* font-family: 'Inter', sans-serif;
+font-family: 'Mulish', sans-serif; */
+  /* reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+/* reused component */
+.container {
+    max-width: 1140px;
+    width: calc(100% - 265px);
+    margin: auto;
+}
+
+
+/* header */
+/* nav */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+header nav h3 {
+    color: #131318;
+font-size: 36px;
+font-weight: 800;
+}
+header nav h3 span{
+    color: #FF5400;
+}
+nav > ul {
+    max-width: 506px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+nav ul a {
+    color:  #424247;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+transition: .5s;
+}
+nav > ul > li:first-child  > a{
+    color: #FF5400;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+}
+nav > ul > li > a:hover {
+    color: #FF5400;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+}
