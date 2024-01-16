@@ -329,6 +329,118 @@ text-align: left;
 }
 /* why-choose-us end */
 
+/* deals-and-discounts start*/
+.deals-and-discounts .primary-title{
+    text-align: center;
+}
+.deals-and-discounts .primary-para{
+    max-width: 643px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.deals-and-discounts .places {
+    margin-top: 48px;
+}
+
+.deals-and-discounts .places .single-place {
+    padding: 56px;
+    border-radius: 16px;
+}
+.deals-and-discounts .places .single-place .text-box {
+    max-width: 579px;
+    margin-left: auto;
+    border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+padding: 50px;
+}
+.deals-and-discounts .places .single-place .info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.deals-and-discounts .places .single-place .info-wrapper img{
+    width: 24px;
+}
+.deals-and-discounts .places .single-place .info-wrapper span{
+    display: flex;
+    gap: 8px;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
+.deals-and-discounts .places .single-place h3 {
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+margin: 26px 0 16px;
+}
+.deals-and-discounts .places .single-place .primary-para{
+    text-align: left;
+}
+.deals-and-discounts .places .single-place .price{
+    color: #FF5400;
+font-size: 20px;
+font-weight: 800;
+margin-top: 16px;
+margin-bottom: 24px;
+}
+.deals-and-discounts .places .single-place .cta-btn{
+    display: inline-block;
+}
+.deals-and-discounts .places .single-place {
+    background-image: url(../Images/Group\ 39.png);
+    background-size: cover;
+    background-position: cover;
+    margin-bottom: 24px;
+}
+.deals-and-discounts .places .single-place2 {
+    background-image: url(../Images/Group\ 40.png);
+    background-size: cover;
+    background-position: cover;
+}
+.deals-and-discounts .places .single-place2 .text-box {
+    margin-left: unset;
+}
+/* deals-and-discounts end*/
+/* video-preview start*/
+.video-preview {
+    padding: 100px 0;
+}
+.video-preview .container{
+    display: flex;
+    gap: 28px;
+}
+.video-preview .video-preview-text {
+    max-width: 50%;
+}
+.video-preview h2{
+    max-width: 448px;
+}
+.video-preview .list  {
+    list-style: disc;
+    padding-left: 25px;
+    margin-bottom: 32px;
+}
+.video-preview .list .primary-para {
+    font-weight: 700;
+    color: #131318;
+    margin-top: 16px;
+}
+.video-preview .video {
+    flex-grow: 1;
+    border-radius: 16px;
+
+}
+.video-preview {
+
+}
+/* video-preview end*/
+
 
 
 
@@ -471,5 +583,44 @@ line-height: normal;
     }
     .why-choose-us .box:nth-child(3) {
         grid-column-start: auto;
+    }
+    /* deals-and-discounts */
+    .video-preview {
+        padding: 24px 0;
+    }
+    .deals-and-discounts .places {
+        margin-top: 16px;
+    }
+    .deals-and-discounts .places .single-place {
+        padding: 187px 16px 16px;
+        margin-bottom: 16px;
+    }
+    .deals-and-discounts .places .single-place .text-box  {
+        padding: 24px;
+    }
+    .deals-and-discounts .places .single-place h3 {
+        margin: 18px 0 8px;
+        font-size: 20px;
+
+    }
+    .deals-and-discounts .places .single-place .price {
+        margin-top: 12px;
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+    .deals-and-discounts .places .single-place .cta-btn {
+        font-size: 18px;
+        padding: 9px 20px;
+    }
+    /* video preview */
+    .video-preview .container{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .video-preview h2 {
+        max-width: 248px;
+    }
+    .video-preview .video-preview-text{
+        max-width: 100%;
     }
 }
