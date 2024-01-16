@@ -100,7 +100,7 @@ text-align: center;
 font-size: 18px;
 font-weight: 700;
 }
-nav > ul > li > a:hover {
+nav .container > ul > li > a:hover {
     color: #FF5400;
 text-align: center;
 font-size: 18px;
