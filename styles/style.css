@@ -436,11 +436,67 @@ margin-bottom: 24px;
     border-radius: 16px;
 
 }
-.video-preview {
-
-}
 /* video-preview end*/
-
+/* newsletter start */
+.newsletter .container {
+    display: flex;
+    justify-content: stretch;
+    gap: 24px;
+}
+.newsletter .newsletter-text {
+    padding: 40px;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+}
+.newsletter form input {
+    display: block;
+    color: rgba(19, 19, 24, 0.30);
+font-size: 16px;
+font-weight: 400;
+padding: 16px 20px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+margin-bottom: 16px;
+border: none;
+outline: none;
+width: 100%;
+}
+.newsletter .line {
+    background: rgba(19, 19, 24, 0.10);
+    height: 1px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.newsletter button {
+    margin-top: 8px;
+    width: 100%;
+}
+.newsletter .newsletter-img {
+    position: relative;
+}
+.newsletter .newsletter-img .discount-tag {
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    padding: 20px 30px;
+    border-radius: 16px;
+background: #FF5400;
+text-align: center;
+transform: rotate(-19.628deg);
+transform-origin: bottom left;
+}
+.newsletter .newsletter-img .discount-tag span{
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+}
+.newsletter .newsletter-img .discount-tag h4{
+    color: #FFF;
+font-size: 32px;
+font-weight: 800;
+}
+/* newsletter end */
 
 
 
@@ -622,5 +678,30 @@ line-height: normal;
     }
     .video-preview .video-preview-text{
         max-width: 100%;
+    }
+    /* newsletter */
+    .newsletter .container {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .newsletter .newsletter-text {
+        padding: 23px;
+    }
+    .newsletter .line {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .newsletter button {
+        margin-top: 4px;
+    }
+    .newsletter .newsletter-img .discount-tag {
+        padding: 15px 25px;
+        right: -10px;
+    }
+    .newsletter .newsletter-img .discount-tag span{
+        font-size: 15.854px;
+    }
+    .newsletter .newsletter-img .discount-tag h4{
+        font-size: 21.138px;
     }
 }
